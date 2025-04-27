@@ -1,3 +1,11 @@
 # ninja log v6
 4	1121	7674511853134048	CMakeFiles/dataStructures.dir/main.cpp.obj	a60cee09dbc8e700
 1123	1864	7674511864308706	dataStructures.exe	7756297acf538e0c
+6	2786	7674526497782204	CMakeFiles/dataStructures.dir/main.cpp.obj	a60cee09dbc8e700
+81	3525	7674526498535522	CMakeFiles/dataStructures.dir/SinglyLinkedList.cpp.obj	43bc14cf23d988a
+211	3899	7674526499838404	CMakeFiles/dataStructures.dir/DoublyLinkedList.cpp.obj	a6c0701f4c48c0ba
+3899	5027	7674526536714148	dataStructures.exe	3c132b2f9baa9009
+21	1506	7674536099357336	CMakeFiles/dataStructures.dir/main.cpp.obj	a60cee09dbc8e700
+107	2006	7674536100225399	CMakeFiles/dataStructures.dir/SinglyLinkedList.cpp.obj	43bc14cf23d988a
+171	2282	7674536100858124	CMakeFiles/dataStructures.dir/DoublyLinkedList.cpp.obj	a6c0701f4c48c0ba
+2282	3104	7674536121970106	dataStructures.exe	3c132b2f9baa9009
