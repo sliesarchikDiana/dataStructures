@@ -1,0 +1,3 @@
+C:/Users/VivoBook/Desktop/dataStructures/cmake-build-debug/CMakeFiles/dataStructures.dir
+C:/Users/VivoBook/Desktop/dataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/VivoBook/Desktop/dataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
