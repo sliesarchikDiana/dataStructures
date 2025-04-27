@@ -9,6 +9,7 @@ int main() {
         sll.push_front(10);
         sll.push_back(20);
         sll.push_front(5);
+        sll.insert(1, 15);
         sll.insert(0, 7);
 
         std::cout << "List: " << sll << std::endl;
@@ -34,6 +35,7 @@ int main() {
 
         dll.pop_back();
         std::cout << "After pop_back: " << dll << std::endl;
+        dll.remove(7);
 
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;

@@ -25,7 +25,8 @@ public:
     [[nodiscard]] size_t get_size() const;
     [[nodiscard]] bool is_empty() const;
     int find(const T& value) const;
-    
+
+
     friend std::ostream& operator<<(std::ostream& os, const DoublyLinkedList<T>& list) {
         auto current = list.head;
         os << "[";
