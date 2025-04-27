@@ -9,7 +9,7 @@ int main() {
         sll.push_front(10);
         sll.push_back(20);
         sll.push_front(5);
-        sll.insert(1, 7);
+        sll.insert(0, 7);
 
         std::cout << "List: " << sll << std::endl;
         std::cout << "Size: " << sll.get_size() << std::endl;
@@ -22,13 +22,15 @@ int main() {
 
         std::cout << "\nDoubly Linked List:\n";
         DoublyLinkedList<std::string> dll;
-        dll.push_back("World");
-        dll.push_front("Hello");
-        dll.insert(1, "C++");
+        dll.push_back("cat");
+        dll.push_front("dog");
+        dll.push_back("parrot");
+        dll.insert(3, "hamster");
+        dll.insert(3, "fish");
 
         std::cout << "List: " << dll << std::endl;
         std::cout << "Size: " << dll.get_size() << std::endl;
-        std::cout << "Element at 1: " << dll.at(1) << std::endl;
+        std::cout << "Element at 3: " << dll.at(3) << std::endl;
 
         dll.pop_back();
         std::cout << "After pop_back: " << dll << std::endl;
