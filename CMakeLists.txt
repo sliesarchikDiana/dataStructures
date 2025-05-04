@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(dataStructures main.cpp
         SinglyLinkedList.cpp
         DoublyLinkedList.h
-        DoublyLinkedList.cpp)
+        DoublyLinkedList.cpp
+        Queue.cpp
+        Queue.h)

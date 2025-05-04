@@ -1,7 +1,7 @@
 #include <iostream>
 #include "SinglyLinkedList.h"
 #include "DoublyLinkedList.h"
-
+#include "Queue.h"
 int main() {
     try {
         std::cout << "Singly Linked List:\n";
@@ -33,13 +33,20 @@ int main() {
         std::cout << "Size: " << dll.get_size() << std::endl;
         std::cout << "Element at 3: " << dll.at(3) << std::endl;
 
-        dll.pop_back();
+/*        dll.pop_back();
         std::cout << "After pop_back: " << dll << std::endl;
         dll.remove(7);
-
+*/
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
 
+    std::cout<<std::endl<<std::endl<<std::endl;
+
+    Queue<int> intQueue;
+    intQueue.Enqueue(10);
+    intQueue.Enqueue(20);
+    std::cout << intQueue.Dequeue() << std::endl; // 10
+    std::cout << intQueue.peek() << std::endl;    // 20
     return 0;
 }

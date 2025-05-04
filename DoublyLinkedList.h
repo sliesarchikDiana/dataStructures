@@ -3,7 +3,6 @@
 
 #include "Node.h"
 #include <iostream>
-#include <stdexcept>
 #include <memory>
 
 template <typename T>
