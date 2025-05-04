@@ -3,6 +3,7 @@
 #include "DoublyLinkedList.h"
 #include "Queue.h"
 #include "InputRestrictedQueue.h"
+#include "Stack.h"
 int main() {
     try {
         std::cout << "Singly Linked List:\n";
@@ -53,7 +54,6 @@ int main() {
     std::cout << "Is empty? " << (queue.isEmpty() ? "Yes" : "No") << "\n";
     std::cout << queue.Dequeue() << std::endl;
     std::cout << queue.Dequeue() << std::endl;
-//    std::cout << queue.peek() << std::endl; //
 
 
     std::cout<<std::endl<<std::endl<<std::endl;
@@ -62,8 +62,25 @@ int main() {
     IRQ.Enqueue(10);
     IRQ.Enqueue(20);
     IRQ.Enqueue(5);
-    std::cout << "DequeueFront: " << IRQ.DequeueFront() << "\n"; // 10
-    std::cout << "DequeueRear: " << IRQ.DequeueRear() << "\n";   // 20
+    std::cout << "DequeueFront: " << IRQ.DequeueFront() << "\n";
+    std::cout << "DequeueRear: " << IRQ.DequeueRear() << "\n";
     std::cout << "Is empty? " << (IRQ.isEmpty() ? "Yes" : "No") << "\n";
+
+
+
+    std::cout << std::endl<<std::endl<<std::endl;
+
+    Stack<int> stack(3);
+
+    stack.Push(10);
+    stack.Push(20);
+    stack.Push(30);
+
+    std::cout << "Top: " << stack.Peek() << "\n";
+    std::cout << "Pop: " << stack.Pop() << "\n";
+    std::cout << "Size: " << stack.size() << "\n";
+
+
     return 0;
+
 }

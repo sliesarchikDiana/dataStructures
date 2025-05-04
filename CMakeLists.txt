@@ -10,4 +10,6 @@ add_executable(dataStructures main.cpp
         Queue.cpp
         Queue.h
         InputRestrictedQueue.cpp
-        InputRestrictedQueue.h)
+        InputRestrictedQueue.h
+        Stack.cpp
+        Stack.h)
