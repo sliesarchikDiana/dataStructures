@@ -73,6 +73,12 @@ build CMakeFiles/dataStructures.dir/Queue.cpp.obj: CXX_COMPILER__dataStructures_
   OBJECT_DIR = CMakeFiles\dataStructures.dir
   OBJECT_FILE_DIR = CMakeFiles\dataStructures.dir
 
+build CMakeFiles/dataStructures.dir/InputRestrictedQueue.cpp.obj: CXX_COMPILER__dataStructures_unscanned_Debug C$:/Users/VivoBook/Desktop/dataStructures/InputRestrictedQueue.cpp || cmake_object_order_depends_target_dataStructures
+  DEP_FILE = CMakeFiles\dataStructures.dir\InputRestrictedQueue.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\dataStructures.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target dataStructures
@@ -81,7 +87,7 @@ build CMakeFiles/dataStructures.dir/Queue.cpp.obj: CXX_COMPILER__dataStructures_
 #############################################
 # Link the executable dataStructures.exe
 
-build dataStructures.exe: CXX_EXECUTABLE_LINKER__dataStructures_Debug CMakeFiles/dataStructures.dir/main.cpp.obj CMakeFiles/dataStructures.dir/SinglyLinkedList.cpp.obj CMakeFiles/dataStructures.dir/DoublyLinkedList.cpp.obj CMakeFiles/dataStructures.dir/Queue.cpp.obj
+build dataStructures.exe: CXX_EXECUTABLE_LINKER__dataStructures_Debug CMakeFiles/dataStructures.dir/main.cpp.obj CMakeFiles/dataStructures.dir/SinglyLinkedList.cpp.obj CMakeFiles/dataStructures.dir/DoublyLinkedList.cpp.obj CMakeFiles/dataStructures.dir/Queue.cpp.obj CMakeFiles/dataStructures.dir/InputRestrictedQueue.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dataStructures.dir

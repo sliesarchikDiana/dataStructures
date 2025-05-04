@@ -2,6 +2,7 @@
 #include "SinglyLinkedList.h"
 #include "DoublyLinkedList.h"
 #include "Queue.h"
+#include "InputRestrictedQueue.h"
 int main() {
     try {
         std::cout << "Singly Linked List:\n";
@@ -43,10 +44,26 @@ int main() {
 
     std::cout<<std::endl<<std::endl<<std::endl;
 
-    Queue<int> intQueue;
-    intQueue.Enqueue(10);
-    intQueue.Enqueue(20);
-    std::cout << intQueue.Dequeue() << std::endl; // 10
-    std::cout << intQueue.peek() << std::endl;    // 20
+    Queue<int> queue;
+    queue.Enqueue(10);
+    queue.Enqueue(20);
+    queue.Enqueue(40);
+    std::cout << queue.Dequeue() << std::endl;
+    std::cout << queue.peek() << std::endl;
+    std::cout << "Is empty? " << (queue.isEmpty() ? "Yes" : "No") << "\n";
+    std::cout << queue.Dequeue() << std::endl;
+    std::cout << queue.Dequeue() << std::endl;
+//    std::cout << queue.peek() << std::endl; //
+
+
+    std::cout<<std::endl<<std::endl<<std::endl;
+
+    InputRestrictedQueue<int> IRQ;
+    IRQ.Enqueue(10);
+    IRQ.Enqueue(20);
+    IRQ.Enqueue(5);
+    std::cout << "DequeueFront: " << IRQ.DequeueFront() << "\n"; // 10
+    std::cout << "DequeueRear: " << IRQ.DequeueRear() << "\n";   // 20
+    std::cout << "Is empty? " << (IRQ.isEmpty() ? "Yes" : "No") << "\n";
     return 0;
 }

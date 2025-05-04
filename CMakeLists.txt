@@ -8,4 +8,6 @@ add_executable(dataStructures main.cpp
         DoublyLinkedList.h
         DoublyLinkedList.cpp
         Queue.cpp
-        Queue.h)
+        Queue.h
+        InputRestrictedQueue.cpp
+        InputRestrictedQueue.h)
