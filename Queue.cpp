@@ -3,7 +3,6 @@
 
 #include "Queue.h"
 
-// Template method implementations
 template <typename T>
 void Queue<T>::Enqueue(const T& value) {
     auto newNode = std::make_shared<Node>(value);
@@ -43,9 +42,8 @@ bool Queue<T>::isEmpty() const {
     return front == nullptr;
 }
 
-// Explicit instantiations (for the types you plan to use)
-template class Queue<int>;       // Example for int
-template class Queue<double>;    // Example for double
-// Add more types as needed
+
+template class Queue<int>;
+template class Queue<double>;
 
 #endif // QUEUE_CPP

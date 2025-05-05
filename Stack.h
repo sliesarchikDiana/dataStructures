@@ -18,10 +18,10 @@ public:
 
     void Push(const T& value);
     T Pop();
-    T Peek() const;
-    bool isEmpty() const;
-    bool isFull() const;
-    size_t size() const { return currentSize; }
+    [[nodiscard]] T Peek() const;
+    [[nodiscard]] bool isEmpty() const;
+    [[nodiscard]] bool isFull() const;
+    [[nodiscard]] size_t size() const { return currentSize; }
 };
 
 
